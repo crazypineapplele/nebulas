@@ -2,12 +2,6 @@ Dark background color (header, hero section and footer): #1F2937
 
 
 
-Information heading:
-Font size: 36px
-Color: #1F2937
-Weight: 900
-
-
 Quote:
 Background color: #E5E7EB
 Font size: 36px
