@@ -104,7 +104,7 @@ body{
 .showcase{
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 550px;
     align-items: center;
 }
 
@@ -130,4 +130,72 @@ body{
     margin: 0 auto;
 }
 
+.quote{
+    height: 400px;
+    font-size: 40px;
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
 
+.quote p{
+    margin: 0 auto;
+    width: 800px;
+    font-weight: 300;
+}
+
+.quote .quote-author{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
+    margin-top: 8px;    
+}
+
+.sign-up{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container{
+    height: 180px;
+    width: 950px;
+    background-color: var(--blue);
+    border-radius: 8px;
+    color: var(--white);
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-up-small-text,
+.sign-up-big-text{
+    margin: 0;
+}
+
+.sign-up-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.sign-up-button{
+    background-color: background-color: var(--blue);
+    color: var(--white);
+    padding: 5px 24px;
+    border: 2px var(--white) solid;
+    border-radius: 8px;
+}
+
+.sign-up-big-text{
+    font: 40px;
+    font-weight: 700;
+}
+
+.sign-up-small-text{
+    color: var(--light-gray);
+}
