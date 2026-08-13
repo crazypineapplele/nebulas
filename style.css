@@ -2,7 +2,9 @@
     font-family: Roboto;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 :root {
   --white: #F9FAF8;
@@ -104,14 +106,19 @@ body{
 .showcase{
     display: flex;
     flex-direction: column;
-    height: 550px;
+    height: 600px;
+    justify-content: center;
+    gap: 40px;
     align-items: center;
+    scroll-behavior: smooth;
+    overflow-y: auto;
 }
 
 .showcase-big-text{
     font-size: 36px;
     color: var(--dark-gray);
     font-weight: 900;
+    margin: 0;
 }
 
 .showcase-container-parent{
@@ -155,20 +162,22 @@ body{
 }
 
 .sign-up{
-    height: 300px;
+    height: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .sign-up-container{
-    height: 180px;
-    width: 950px;
+    height: 150px;
+    width: 1100px;
     background-color: var(--blue);
     border-radius: 8px;
     color: var(--white);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
 }
 
 .sign-up-small-text,
@@ -180,15 +189,18 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 8px;
 }
 
 
 .sign-up-button{
     background-color: background-color: var(--blue);
     color: var(--white);
-    padding: 5px 24px;
+    padding: 10px 30px;
     border: 2px var(--white) solid;
     border-radius: 8px;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .sign-up-big-text{
@@ -198,4 +210,14 @@ body{
 
 .sign-up-small-text{
     color: var(--light-gray);
+}
+
+.footer{
+    height: 90px;
+    background-color: var(--dark-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-gray);
+    font-size: 16px;
 }
